@@ -103,8 +103,8 @@ slots_factor = [1, 1.25, 1.5, 2, 2.5, 3][enlarge_slots];
 rod_diam = [0, 2, 3, 4, 5][rod] + 0.3;
 remove_box_size = [0, 0.05, 0.10, 0.15, 0.20, 0.30][remove_thin_parts];
 /* Positions */
-gnomon_center_y = (grid_width+4)/2 + px_h; // position of gnomon center
 pixel_pos_y = gnom_rad - grid_width/2; // y pos of the first pixel
+gnomon_center_y = (grid_width+4)/2 + pixel_pos_y - 2; // position of gnomon center
 pixels = text2digits(text); // array of pixels representing the text
 
 /* Holder */
